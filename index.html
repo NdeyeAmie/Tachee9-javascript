@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation des Tableaux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #5c67a3;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            margin: 10px 0;
+            padding: 8px;
+            width: 30%;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #5c67a3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4a5394;
+        }
+        .result {
+            margin-top: 20px;
+            background-color: #eef;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .result h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Manipulation des Tableaux</h1>
+
+    
+    <label for="tab1">Tableau 1 positifs et négatifs :</label>
+    <input type="text" id="tab1" placeholder="Ex: 1, -2">
+    <br><br>
+    <label for="tab2">Tableau 2 positifs et négatifs :</label>
+    <input type="text" id="tab2" placeholder="Ex: 6, -7">
+    <br><br>
+
+
+    <button onclick="manipulerTableaux()">Résultat</button>
+
+  
+    <div class="result">
+        <h3>Résultats :</h3>
+        <p id="resultTab3"></p>
+        <p id="resultTab2"></p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
